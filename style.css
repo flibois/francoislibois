@@ -1,0 +1,107 @@
+:root {
+    --unamur-green: #006633;
+    --light-green: #e6f2ea;
+    --dark-text: #333;
+    --light-text: #fff;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--dark-text);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.banner {
+    background-color: var(--unamur-green);
+    color: var(--light-text);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.banner p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+.navbar {
+    background-color: var(--light-green);
+    padding: 15px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--dark-text);
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: var(--unamur-green);
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.section {
+    padding: 40px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.section h2 {
+    color: var(--unamur-green);
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--unamur-green);
+    color: var(--light-text);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #004d26;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f1f1f1;
+    color: var(--dark-text);
+}
